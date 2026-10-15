@@ -1,0 +1,12 @@
+git commit: (you can do -m "message")
+git branch: (git branch lists local branches, git branch new-branch makes a new one, and 
+git branch -d name deletes one)
+git checkout: (git checkout name swithces to the desired branch, git checkout -b 
+new-branch creates and switches to a new branch)
+git pull: (git pull origin main - pulls the branch "main" from the remote "origin")
+git push: uploads local commits to remote repo, (same argument idea as pull)
+git merge: combines changes from another branch into your current branch (git merge feature, 
+merges the feature branch to your current branch)
+git rebase: takes all commits from one branch and replays them on top of another branch (rewrites history)
+(git rebase main will rebase your current branch onto main)
+git fetch: grabs changes from remote repo without merging them into current branch
